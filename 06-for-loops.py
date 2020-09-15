@@ -1,7 +1,7 @@
 # With the for loop we can execute a set of statements, once for each item in a list, tuple, set etc.
 fruits = ["apple", "banana", "cherry"]
 for x in fruits:
-    print(print("I like " + x))
+    print("I like " + x)
 print("this happens once")
 # indentation works just like if.
 # Unindented line marks the end the scope of the loop

@@ -19,10 +19,20 @@
 #	print()
 
 # same as above, but only up to 9
+# num = int(input("Enter a number:"))
+# for i in range(1, num+1):
+#     if (i > 9):
+#         break
+#     for j in range(0, i):
+#         print(i, end="")
+#     print()
+
 num = int(input("Enter a number:"))
-for i in range(1, num+1):
-    if (i > 9):
-        break
-    for j in range(0, i):
-        print(i, end="")
+i = 1
+while i <= num:
+    j = 1
+    while j <= i:
+        print (i,end = "")
+        j = j + 1
+    i = i+1
     print()
